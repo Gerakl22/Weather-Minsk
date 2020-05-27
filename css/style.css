@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.weather-current {
+    background-color: rgb(43, 168, 43);
+    color: whitesmoke;
+    padding: 3px 0px 3px 10px;
+}
+
+.country-time {
+    padding-top: 5px;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+.temperature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.img-temperature {
+   padding-left: 30px;
+}
+
+.img-temperature img {
+    max-width: 70%;
+}
+
+.temperature-current {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.wind {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.forecast-Minsk {
+    background-color: rgb(189, 185, 185);
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 15px;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+}
+
+
+.img-forecast img {
+    max-width: 60%;
+}
