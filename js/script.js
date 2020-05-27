@@ -118,7 +118,6 @@ class Minsk {
         }
     }
 
-
 fetchData('GET', urlWeatherMinsk) 
     // .then(response => JSON.parse(response))
     .then(data => arrDataMinsk.push(data))
